@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Calibri, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#searchbar-filter {
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+}
+
+#searchbar-filter:focus {
+    outline: none;
+    background-color: lightgray;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#movie-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#movie-list li {
+    padding: 10px 0;
+}
